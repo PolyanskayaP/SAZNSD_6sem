@@ -1,7 +1,9 @@
 ---
 title: "lab1"
-format: html
-editor: visual
+author: "ppolina353@yandex.ru"
+format:   
+  md:
+    output-file: README.md
 ---
 
 ## Quarto
