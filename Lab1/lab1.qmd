@@ -4,6 +4,8 @@ author: "ppolina353@yandex.ru"
 format:   
   md:
     output-file: README.md
+editor_options: 
+  chunk_output_type: inline
 ---
 
 ## Quarto
@@ -14,15 +16,23 @@ Quarto enables you to weave together content and executable code into a finished
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{PowerShell}
-systeminfo
+```{bash}
+uname -r
+```
+```{bash}
+uname -a
+```
+```{bash}
+lsb_release -a
+```
+```{bash}
+cat /proc/cpuinfo | grep "model name"
+```
+```{bash}
+dmesg | tail -n 30
+```
+```{r setup, include=TRUE}
+
 ```
 
-You can add options to executable code like this
 
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
