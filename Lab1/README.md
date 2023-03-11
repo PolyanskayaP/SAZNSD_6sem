@@ -2,25 +2,34 @@ lab1
 ================
 ppolina353@yandex.ru
 
-Создание примера отчета в RStudio \## Цель
+Создание примера отчета в RStudio
 
-1.Ознакомиться с Quarto 2.Написать пример отчета 3.Найти сведения о
-компьютере, на котором выполняется работа
+## Цель
+
+1.  Ознакомиться с Quarto
+2.  Написать пример отчета
+3.  Найти сведения о компьютере, на котором выполняется работа
 
 ## Исходные данные
 
-1.Ноутбук с ОС Windows 10 2.Приложение Ubuntu on Windows 3.bash
+1.  Ноутбук с ОС Windows 10
+2.  Приложение Ubuntu on Windows
+3.  bash
+4.  RStudio
+5.  Quarto
 
 ## Варианты решения задачи
 
-1.Набирать команды в консоли, делать скрины и вставлять их в отчет в
-Word 2.Делать чанки со скриптом bash используя Quarto, создавая
-readme-файл с отчетом
+1.  Набирать команды в консоли, делать скрины и вставлять их в отчет в
+    Word
+2.  Делать чанки со скриптом bash используя Quarto, создавая readme-файл
+    с отчетом
 
 ## План
 
-1.Создать файл Quarto (qmd) 2.Написать bash-скрипты 3.Проверить их
-выполнение
+1.  Создать файл Quarto (qmd)
+2.  Написать bash-скрипты
+3.  Проверить их выполнение
 
 ## Описание шагов
 
@@ -73,11 +82,11 @@ cat /proc/cpuinfo | grep "model name"
 dmesg | tail -n 30
 ```
 
-    [    0.014973]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
-    [    0.085683] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
-    [    0.085689] : 19
-    [    0.085805] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
-    [    0.085808] 19
+    [    0.015390]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
+    [    0.083113] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
+    [    0.083118] : 19
+    [    0.083244] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
+    [    0.083247] 19
 
 ### Шаг 3
 
