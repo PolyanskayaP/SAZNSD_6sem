@@ -37,7 +37,7 @@ ppolina353@yandex.ru
 
 Создание файла:
 
-![alt text](\1.png)
+![alt text](./1.png)
 
 ### Шаг 2
 
@@ -86,17 +86,17 @@ cat /proc/cpuinfo | grep "model name"
 dmesg | tail -n 30
 ```
 
-    [    0.015110]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
-    [    0.092251] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
-    [    0.092256] : 19
-    [    0.092370] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
-    [    0.092373] 19
+    [    0.038194]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
+    [    0.230827] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
+    [    0.230837] : 19
+    [    0.231080] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
+    [    0.231086] 19
 
 ### Шаг 3
 
 Проверка работы скриптов:
 
-![alt text](\3.png)
+![alt text](./3.png)
 
 ## Оценка результатов
 

@@ -40,7 +40,7 @@ editor_options:
 
 Создание файла:
 
-![alt text](\1.png) 
+![alt text](./1.png) 
 
 ### Шаг 2
 
@@ -68,7 +68,7 @@ dmesg | tail -n 30
 
 Проверка работы скриптов:
 
-![alt text](\3.png) 
+![alt text](./3.png) 
 
 ## Оценка результатов
 
