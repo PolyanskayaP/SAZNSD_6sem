@@ -24,9 +24,9 @@ readme-файл с отчетом
 
 ## Описание шагов
 
-# Шаг 1
+### Шаг 1
 
-# Шаг 2
+### Шаг 2
 
 Написание скриптов:
 
@@ -73,13 +73,13 @@ cat /proc/cpuinfo | grep "model name"
 dmesg | tail -n 30
 ```
 
-    [    0.017148]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
-    [    0.099516] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
-    [    0.099522] : 19
-    [    0.099642] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
-    [    0.099646] 19
+    [    0.014973]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
+    [    0.085683] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
+    [    0.085689] : 19
+    [    0.085805] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
+    [    0.085808] 19
 
-# Шаг 3
+### Шаг 3
 
 ## Оценка результатов
 
