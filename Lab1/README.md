@@ -35,6 +35,8 @@ ppolina353@yandex.ru
 
 ### Шаг 1
 
+Создание файла:
+
 ![alt text](\1.png)
 
 ### Шаг 2
@@ -57,11 +59,11 @@ uname -a
 lsb_release -a
 ```
 
+    No LSB modules are available.
     Distributor ID: Ubuntu
     Description:    Ubuntu 20.04 LTS
     Release:    20.04
     Codename:   focal
-    No LSB modules are available.
 
 ``` bash
 cat /proc/cpuinfo | grep "model name"
@@ -84,13 +86,15 @@ cat /proc/cpuinfo | grep "model name"
 dmesg | tail -n 30
 ```
 
-    [    0.014608]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
-    [    0.084239] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
-    [    0.084245] : 19
-    [    0.084387] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
-    [    0.084390] 19
+    [    0.015110]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
+    [    0.092251] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
+    [    0.092256] : 19
+    [    0.092370] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
+    [    0.092373] 19
 
 ### Шаг 3
+
+Проверка работы скриптов:
 
 ![alt text](\3.png)
 
