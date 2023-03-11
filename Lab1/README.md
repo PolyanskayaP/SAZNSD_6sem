@@ -22,11 +22,11 @@ readme-файл с отчетом
 1.Создать файл Quarto (qmd) 2.Написать bash-скрипты 3.Проверить их
 выполнение
 
-##Описание шагов
+## Описание шагов
 
-#Шаг 1
+# Шаг 1
 
-#Шаг 2
+# Шаг 2
 
 Написание скриптов:
 
@@ -73,20 +73,20 @@ cat /proc/cpuinfo | grep "model name"
 dmesg | tail -n 30
 ```
 
-    [    0.023998]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
-    [    0.115931] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
-    [    0.115936] : 19
-    [    0.116322] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
-    [    0.116327] 19
+    [    0.017148]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
+    [    0.099516] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
+    [    0.099522] : 19
+    [    0.099642] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
+    [    0.099646] 19
 
-#Шаг 3
+# Шаг 3
 
-##Оценка результатов
+## Оценка результатов
 
 Задача решена с помощью Quarto. Я научилась добавлять запуск скриптов в
 отчет(readme-файл)
 
-##Вывод
+## Вывод
 
 В данной работе был написан пример отчета, который в дальнейшем будет
 использоваться как образец
