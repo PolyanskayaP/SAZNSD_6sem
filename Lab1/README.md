@@ -2,16 +2,33 @@ lab1
 ================
 ppolina353@yandex.ru
 
-## Quarto
+Создание примера отчета в RStudio \## Цель
 
-Quarto enables you to weave together content and executable code into a
-finished document. To learn more about Quarto see <https://quarto.org>.
+1.Ознакомиться с Quarto 2.Написать пример отчета 3.Найти сведения о
+компьютере, на котором выполняется работа
 
-## Running Code
+## Исходные данные
 
-When you click the **Render** button a document will be generated that
-includes both content and the output of embedded code. You can embed
-code like this:
+1.Ноутбук с ОС Windows 10 2.Приложение Ubuntu on Windows 3.bash
+
+## Варианты решения задачи
+
+1.Набирать команды в консоли, делать скрины и вставлять их в отчет в
+Word 2.Делать чанки со скриптом bash используя Quarto, создавая
+readme-файл с отчетом
+
+## План
+
+1.Создать файл Quarto (qmd) 2.Написать bash-скрипты 3.Проверить их
+выполнение
+
+##Описание шагов
+
+#Шаг 1
+
+#Шаг 2
+
+Написание скриптов:
 
 ``` bash
 uname -r
@@ -56,8 +73,20 @@ cat /proc/cpuinfo | grep "model name"
 dmesg | tail -n 30
 ```
 
-    [    0.021270]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
-    [    0.099132] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
-    [    0.099136] : 19
-    [    0.099249] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
-    [    0.099252] 19
+    [    0.023998]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
+    [    0.115931] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
+    [    0.115936] : 19
+    [    0.116322] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
+    [    0.116327] 19
+
+#Шаг 3
+
+##Оценка результатов
+
+Задача решена с помощью Quarto. Я научилась добавлять запуск скриптов в
+отчет(readme-файл)
+
+##Вывод
+
+В данной работе был написан пример отчета, который в дальнейшем будет
+использоваться как образец
