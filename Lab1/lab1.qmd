@@ -45,6 +45,7 @@ editor_options:
 ### Шаг 2
 
 Написание скриптов:
+Т.к. установлено приложение "Ubuntu on windows", можно писать на bash-е
 ```{bash}
 uname -r
 ```

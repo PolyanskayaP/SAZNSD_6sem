@@ -41,7 +41,8 @@ ppolina353@yandex.ru
 
 ### Шаг 2
 
-Написание скриптов:
+Написание скриптов: Т.к. установлено приложение “Ubuntu on windows”,
+можно писать на bash-е
 
 ``` bash
 uname -r
@@ -86,11 +87,11 @@ cat /proc/cpuinfo | grep "model name"
 dmesg | tail -n 30
 ```
 
-    [    0.038194]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
-    [    0.230827] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
-    [    0.230837] : 19
-    [    0.231080] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
-    [    0.231086] 19
+    [    0.020301]  Microsoft 4.4.0-19041.2311-Microsoft 4.4.35
+    [    0.158390] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/drive
+    [    0.158394] : 19
+    [    0.158703] <3>init: (1) ERROR: ConfigInitializeCommon:665: Failed to mount /usr/lib/wsl/lib
+    [    0.158707] 19
 
 ### Шаг 3
 
