@@ -42,4 +42,4 @@ ppolina353@yandex.ru
 С помощью программы Wireshark собираем трафик. Получаем файл:
 packets2203.pcap (596 МБ)
 
-![alt text](./1.png)
+![alt text](1.png)
