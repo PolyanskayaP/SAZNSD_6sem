@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2023-04-22-07-40-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1679466678.444307	CYN6BC24gzQccA3ZU7	192.168.177.25	61551	192.168.1.152	161	81.220139	1	public	33	0	0	0	-	-
+1679467278.737121	CLDI241o0Ik5xkm0Kl	192.168.177.25	61551	192.168.1.152	161	81.229393	1	public	33	0	0	0	-	-
+1679467878.038651	C5k3Yt4oK5atxI8IV1	192.168.177.25	61551	192.168.1.152	161	81.635735	1	public	33	0	0	0	-	-
+#close	2023-04-22-07-40-39

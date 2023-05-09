@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2023-04-22-07-40-37
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1679466926.094199	C0NfUH1XCH45NMypN2	192.168.177.25	192.168.177.228	f8:89:d2:0c:7b:3f	polyanskaya	polyanskaya	-	-	192.168.177.25	3599.000000	-	-	REQUEST,ACK	0.041763
+#close	2023-04-22-07-40-39
