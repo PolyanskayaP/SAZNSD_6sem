@@ -43,3 +43,59 @@ ppolina353@yandex.ru
 packets2203.pcap (596 МБ)
 
 ![alt text](1.png)
+
+
+### Шаг 2
+
+С помощью WLS(Ubuntu) и утилиты Zeek получаем метаинформацию о сетевом трафике
+
+![alt text](2.png)
+
+### Шаг 3 
+
+Далее берём списки нежелательного трафика с репрозитория [StevenBlack (Steven Black) · GitHub](https://github.com/StevenBlack) \
+И соединяем в файл damaged.txt\
+
+![alt text](3.png)
+
+### Шаг 4
+
+С помощью программы на Python подсчитываем процент нежелательного трафика.\
+(Сравниваем dns.log и damaged.txt)\
+В итоге процент нежелательного трафика: 2.443 
+
+``` python
+
+import warnings
+warnings.filterwarnings("ignore", category=RuntimeWarning)
+import numpy as np
+import pandas as pd
+import zat.log_to_dataframe
+import pathlib
+from pathlib import Path
+dir_path = pathlib.Path.cwd()
+path = Path(dir_path,'Lab2', 'Zeek', 'dns.log')
+df = zat.log_to_dataframe.LogToDataFrame()
+zeek_df = df.create_dataframe(path)
+domain = zeek_df['query']
+domain.name='CNAME'
+path = Path(dir_path,'Lab2', 'damaged.txt')
+df = pd.read_csv(path,sep="\s+",names=['redirect_to','CNAME'])
+dmgd = df['CNAME']
+edin = pd.merge(domain,dmgd, how='left',indicator='exists', on=['CNAME'],)
+edin['exists'] = np.where(edin.exists == 'both',True,False)
+nezh_traff = edin['exists'].value_counts(normalize=True)[1]*100
+print("Процент нежелательного трафика: ", round(nezh_traff,3))
+
+```
+
+![alt text](4.png)
+
+## Оценка результатов
+
+Задача выполнена при помощи утилиты Zeek и программного кода на Python. 
+Были получены навыки использования инструментов сбора информации о сетевом трафике, а также её аналитической обработки.
+
+## Вывод
+
+По итогу данной работы мной были освоены базовые подходы работы с анализом и сбором сетевого трафика. 
