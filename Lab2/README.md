@@ -54,7 +54,7 @@ packets2203.pcap (596 МБ)
 ### Шаг 3 
 
 Далее берём списки нежелательного трафика с репрозитория [StevenBlack (Steven Black) · GitHub](https://github.com/StevenBlack) \
-И соединяем в файл damaged.txt\
+И соединяем в файл damaged.txt
 
 ![alt text](3.png)
 
