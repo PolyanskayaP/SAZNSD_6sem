@@ -15,7 +15,7 @@ ppolina353@yandex.ru
 ## Исходные данные
 
 1.  Ноутбук с ОС Windows 10
-2.  Приложение Ubuntu on Windows (wsl)
+2.  Приложение Ubuntu on Windows (subsystem for linux)
 3.  bash
 4.  RStudio
 5.  Quarto
