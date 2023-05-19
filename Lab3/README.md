@@ -1,4 +1,4 @@
-lab2
+lab3
 ================
 ppolina353@yandex.ru
 
@@ -19,6 +19,7 @@ ppolina353@yandex.ru
 3.  RStudio
 4.  Quarto
 5.  Docker
+6.  Docker-compose
 
 ## Ход выполнения практической работы
 

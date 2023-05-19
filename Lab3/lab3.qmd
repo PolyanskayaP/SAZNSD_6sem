@@ -1,5 +1,5 @@
 ---
-title: "lab2"
+title: "lab3"
 author: "ppolina353@yandex.ru"
 format:   
   md:
@@ -22,6 +22,7 @@ editor_options:
 3. RStudio
 4. Quarto
 5. Docker
+6. Docker-compose
 
 ## Ход выполнения практической работы
 
