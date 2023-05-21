@@ -71,11 +71,11 @@ https://lab.pentestit.ru/
 
 ### 5. Публичные сотрудники компании, активные участники ИТ и ИБ-сообщества, участники профильных конференций, Twitter, Mastodon, Телеграмм-каналов и т.д.
 
-Romanov Roman  \n
-https://habr.com/ru/users/romanovr/  \n
-https://t.me/pentestit  \n
-rr@pentestit.ru  \n
-Защита сайтов и API от хакерских атак, искусственный интеллект, сигнатурный анализ  \n
+Romanov Roman  \n\n
+https://habr.com/ru/users/romanovr/  \n\n
+https://t.me/pentestit  \n\n
+rr@pentestit.ru  \n\n
+Защита сайтов и API от хакерских атак, искусственный интеллект, сигнатурный анализ  \n\n
 
 ### 6. Уникальные достижения, ключевые продукты компании (при наличии)
 
