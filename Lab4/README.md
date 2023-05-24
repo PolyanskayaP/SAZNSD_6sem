@@ -242,19 +242,27 @@ docker-compose up -d
 
 ### Шаг 5
 
-Авторизация на OPENCTI: ![alt text](1.png)
+Авторизация на OPENCTI:
+
+![alt text](1.png)
 
 ### Шаг 6
 
-Дашборд: ![alt text](2.png)
+Дашборд:
+
+![alt text](2.png)
 
 ### Шаг 7
 
-Были импортированы данные (с помощью script.py) ![alt text](3.png)
+Были импортированы данные (с помощью script.py)
+
+![alt text](3.png)
 
 ![alt text](4.png)
 
-Вредоносных доменов нет ![alt text](5.png)
+Вредоносных доменов нет
+
+![alt text](5.png)
 
 ## Оценка результатов
 
